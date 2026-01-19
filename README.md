@@ -1,26 +1,26 @@
-# 🛒 BuyBuddy: Smart Grocery Recommendation System
+#  BuyBuddy: Smart Grocery Recommendation System
 
 **BuyBuddy** is an intelligent, full-stack grocery recommendation system for e-commerce platforms. It delivers **real-time, context-aware suggestions** using advanced market basket analysis, FP-Growth algorithm, and seasonal/time-of-day enhancements.
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 🔐 **User Authentication** — Secure registration, login, and profile management
-* 📦 **Product Management** — Add, update, and organize grocery catalog
+*  **User Authentication** — Secure registration, login, and profile management
+*  **Product Management** — Add, update, and organize grocery catalog
 * 🛒 **Transaction Logging** — Track and analyze real-time purchase behavior
-* 🤖 **Smart Recommendations**:
+*  **Smart Recommendations**:
 
   * Context-aware (based on time of day)
   * Seasonal product boosting (based on monthly trends)
   * Real-world grocery transaction insights
-* 🔗 **RESTful API Access** — Fully documented and ready-to-use endpoints
-* 📊 **Interactive Dashboard** — User-friendly UI for monitoring & control
-* ⚙️ **One-Click Setup** — Automatic installation, database config & demo run
+*  **RESTful API Access** — Fully documented and ready-to-use endpoints
+*  **Interactive Dashboard** — User-friendly UI for monitoring & control
+*  **One-Click Setup** — Automatic installation, database config & demo run
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 * Plug-and-play recommendation engine for grocery stores
 * B2B SaaS base for personalized grocery upselling
@@ -28,7 +28,7 @@
 
 ---
 
-## 🥳 Tech Stack
+##  Tech Stack
 
 | Layer     | Technology                              |
 | --------- | --------------------------------------- |
@@ -40,9 +40,9 @@
 
 ---
 
-## 💻 Installation Guide
+##  Installation Guide
 
-### 🔧 Prerequisites
+###  Prerequisites
 
 * Python 3.9+
 * PostgreSQL (running)
@@ -50,7 +50,7 @@
 
 ---
 
-### ✅ Option 1: Automated Setup (Recommended)
+###  Option 1: Automated Setup (Recommended)
 
 1. **Clone the repository**
 
@@ -83,7 +83,7 @@
 
 ---
 
-### 🛠️ Option 2: Manual Setup
+###  Option 2: Manual Setup
 
 1. **Install dependencies**
 
@@ -125,14 +125,14 @@
 
 ---
 
-## 🥒 Default Credentials
+##  Default Credentials
 
 * **Username:** `admin`
 * **Password:** `adminpassword`
 
 ---
 
-## 📚 API Documentation
+##  API Documentation
 
 Access interactive Swagger documentation:
 
@@ -142,16 +142,16 @@ http://localhost:5000/docs/
 
 ---
 
-## 🧐 Recommendation Engine
+##  Recommendation Engine
 
-### 🕒 Time-of-Day Context
+###  Time-of-Day Context
 
 * **Morning (5am–11am)**: Coffee, milk, breakfast
 * **Midday (11am–3pm)**: Lunch ingredients, quick meals
 * **Evening (3pm–9pm)**: Dinner items, daily essentials
 * **Late Night (9pm–5am)**: Snacks, beverages
 
-### 🗓️ Seasonal Boosting
+###  Seasonal Boosting
 
 | Month       | Example Boosted Products                     |
 | ----------- | -------------------------------------------- |
@@ -167,7 +167,7 @@ http://localhost:5000/docs/
 
 ---
 
-## 📊 Dataset Insights
+##  Dataset Insights
 
 * **Market Basket Dataset** — 9,800+ grouped grocery transactions
   [`groceries.csv`](https://github.com/stedy/Machine-Learning-with-R-datasets) from stedy/Machine-Learning-with-R-datasets
@@ -181,7 +181,7 @@ http://localhost:5000/docs/
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```bash
 BuyBuddy/
@@ -210,7 +210,7 @@ BuyBuddy/
 * Confirm `.env` file is correctly configured
 * Run `psql -l` to verify database exists
 
-### ❌ App Not Starting?
+###  App Not Starting?
 
 * Double-check `pip` dependencies
 * Ensure port `5000` is free
@@ -218,19 +218,19 @@ BuyBuddy/
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! If you’d like to improve the engine, optimize rules, or extend the dashboard — feel free to fork the project and submit a PR.
 
 ---
 
-## 📄 License
+##  License
 
 MIT License © 2025
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 * [mlxtend](http://rasbt.github.io/mlxtend/) for FP-Growth support
 * Dataset sources:
